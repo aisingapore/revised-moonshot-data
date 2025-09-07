@@ -1,0 +1,16 @@
+{
+    "name": "TruthfulQA",
+    "description": "TruthfulQA aims to measure the truthfulness of a model. This is an experimental recipe using Rouge Score",
+    "tags": [],
+    "categories": [
+        "Trust & Safety"
+    ],
+    "datasets": [
+        "truthfulqa-open-ended"
+    ],
+    "prompt_templates": [],
+    "metrics": [
+        "rougescorer"
+    ],
+    "grading_scale": {}
+}
