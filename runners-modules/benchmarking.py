@@ -100,11 +100,11 @@ class Benchmarking:
 
             # Perform validation on prompt_selection_percentage
             if (
-                self.prompt_selection_percentage < 1
+                self.prompt_selection_percentage < 0
                 or self.prompt_selection_percentage > 100
             ):
                 raise RuntimeError(
-                    "The 'prompt_selection_percentage' argument must be between 1 - 100."
+                    "The 'prompt_selection_percentage' argument must be between 0 - 100."
                 )
 
             # ------------------------------------------------------------------------------

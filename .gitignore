@@ -1,8 +1,14 @@
 .DS_Store
 
-generated-outputs/bookmarks/*
-generated-outputs/databases/*
-generated-outputs/results/*
-generated-outputs/runners/*
+generated-outputs/bookmarks/
+generated-outputs/databases/*.db
+generated-outputs/results/*.json
+generated-outputs/runners/*.json
 
 __pycache__/
+
+attack-modules/cache.json
+datasets/cache.json
+metrics/cache.json
+connectors-endpoints/*.json
+recipes/*.json

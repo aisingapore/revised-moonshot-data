@@ -5,7 +5,7 @@
     "description": "BertScore uses Bert to check for the similarity in embedding between two sentences.",
     "endpoints": [],
     "configurations": {},
-    "hash": "6394f4f3321a76f1"
+    "hash": "6903e6b9e8edd3d2"
   },
   "spelling": {
     "id": "spelling",
@@ -13,7 +13,7 @@
     "description": "SpellingScore uses Levenshetein Distance to find permutations within an edit distance of 2 from the original word before comparing to known words in a word frequency list.",
     "endpoints": [],
     "configurations": {},
-    "hash": "4f4313acddd26c33"
+    "hash": "946e2dc5e9f90b66"
   },
   "gpt4annotator": {
     "id": "gpt4annotator",
@@ -23,7 +23,7 @@
       "llm-judge-openai-gpt4-annotator"
     ],
     "configurations": {},
-    "hash": "59b74f41f2378df9"
+    "hash": "e8efc56861391c66"
   },
   "bleuscore": {
     "id": "bleuscore",
@@ -31,7 +31,7 @@
     "description": "Bleuscore uses Bleu to return the various rouge scores.",
     "endpoints": [],
     "configurations": {},
-    "hash": "2a86eb50ff4cdd63"
+    "hash": "01592061d69de7cf"
   },
   "readabilityscore": {
     "id": "readabilityscore",
@@ -39,7 +39,7 @@
     "description": "ReadabilityScore uses Flesch Reading Ease to compute the complexity of the output",
     "endpoints": [],
     "configurations": {},
-    "hash": "f0402de3336c573f"
+    "hash": "852a4f342a674943"
   },
   "toxicity-classifier": {
     "id": "toxicity-classifier",
@@ -47,7 +47,7 @@
     "description": "This classifier measures how toxic a given input isand calculates the number of toxic sentences detected.",
     "endpoints": [],
     "configurations": {},
-    "hash": "fd47ca8feaa7b999"
+    "hash": "834c90886980dac5"
   },
   "rougescorer": {
     "id": "rougescorer",
@@ -55,7 +55,7 @@
     "description": "RougeScorer returns the various rouge scores.",
     "endpoints": [],
     "configurations": {},
-    "hash": "0e061b09e1676c85"
+    "hash": "a243cfff2741e6b6"
   },
   "advglue": {
     "id": "advglue",
@@ -63,7 +63,7 @@
     "description": "Attack success rate measures how successful a changed prompt performs. A high score shows that the system under test is highly sensitive towards a prompt with minimal changes.",
     "endpoints": [],
     "configurations": {},
-    "hash": "12f97c7f523d9619"
+    "hash": "fa6ef03eb82a3506"
   },
   "leakagerate": {
     "id": "leakagerate",
@@ -71,7 +71,7 @@
     "description": "Leakage Rate will compare the LCS between two string - Output and Target.",
     "endpoints": [],
     "configurations": {},
-    "hash": "729b33234465784e"
+    "hash": "3b2a685c989f17fe"
   },
   "reverseexactstrmatch": {
     "id": "reverseexactstrmatch",
@@ -79,7 +79,7 @@
     "description": "ReverseExactStrMatch will compare the output from language model with the expected target.",
     "endpoints": [],
     "configurations": {},
-    "hash": "c0756f172b187b38"
+    "hash": "a92fcd6425b8f670"
   },
   "exactstrmatch": {
     "id": "exactstrmatch",
@@ -87,7 +87,7 @@
     "description": "ExactStrMatch will compare the output from language model with a single target or multiple expected target.",
     "endpoints": [],
     "configurations": {},
-    "hash": "39f1018f51ab125f"
+    "hash": "5adb099aad7d5cb9"
   },
   "relaxstrmatch": {
     "id": "relaxstrmatch",
@@ -95,17 +95,17 @@
     "description": "RelaxStrMatch will remove symbols and spaces before comparing the output from language model with the expected target.",
     "endpoints": [],
     "configurations": {},
-    "hash": "d2f220c23c796a58"
+    "hash": "d7894377e75e63d1"
   },
   "llamaguardannotator": {
     "id": "llamaguardannotator",
     "name": "LlamaGuard Annotator",
     "description": "Calculates the number of safe, unsafe and unknown response by using LlamaGuard.",
     "endpoints": [
-      "together-llama-guard-2-mlccommons"
+      "together-llama-guard-8b-assistant"
     ],
     "configurations": {},
-    "hash": "8ea584f712610e00"
+    "hash": "e9e9caf88e016bd3"
   },
   "samplemetric": {
     "id": "samplemetric",
@@ -119,7 +119,7 @@
       "threshold_value": "0.35",
       "num_of_prompts_to_calculate": 1
     },
-    "hash": "03ba1f69faf76a1c"
+    "hash": "502421a8b1a137ac"
   },
   "lionguardclassifier": {
     "id": "lionguardclassifier",
@@ -129,7 +129,7 @@
     "configurations": {
       "grading_classifier": "toxic"
     },
-    "hash": "9714736b7a052b9e"
+    "hash": "e5682d5f85e24674"
   },
   "flagjudgeannotator": {
     "id": "flagjudgeannotator",
@@ -139,7 +139,7 @@
       "flageval-flagjudge"
     ],
     "configurations": {},
-    "hash": "2f3ae8f7f95b0e7a"
+    "hash": "bf1e9441c22095f0"
   },
   "q16_metric": {
     "id": "q16_metric",
@@ -147,7 +147,7 @@
     "description": "Q16 is a binary classifier used to determine whether an image is inappropriate (https://github.com/ml-research/Q16)",
     "endpoints": [],
     "configurations": {},
-    "hash": "e3baf1f18cad7bfb"
+    "hash": "8a4c22d6b20f212d"
   },
   "nudenet_metric": {
     "id": "nudenet_metric",
@@ -155,7 +155,7 @@
     "description": "NudeNet is a classifier used to deduce probabilities of exposed body parts in images.",
     "endpoints": [],
     "configurations": {},
-    "hash": "04f7430c9a2b1fdc"
+    "hash": "d5287809c91d22d3"
   },
   "genderbias_metric": {
     "id": "genderbias_metric",
@@ -163,7 +163,7 @@
     "description": "This metric uses a CLIP based gender classifier to determine the proportion of females returning a score between 0 and 0.5. score = |female_frac - 0.5|",
     "endpoints": [],
     "configurations": {},
-    "hash": "86bce239a289e2b8"
+    "hash": "cb8e9bdd4450c54e"
   },
   "faithfulness": {
     "id": "faithfulness",
@@ -177,7 +177,7 @@
         "azure-langchain-openai-embedding-ada-2"
       ]
     },
-    "hash": "c3efd02b77de5faf"
+    "hash": "79d62689320b61dd"
   },
   "answercorrectness": {
     "id": "answercorrectness",
@@ -191,7 +191,7 @@
         "azure-langchain-openai-embedding-ada-2"
       ]
     },
-    "hash": "90c03fef7bb7bcc7"
+    "hash": "433ec0f3e834f7b8"
   },
   "contextrecall": {
     "id": "contextrecall",
@@ -205,7 +205,7 @@
         "azure-langchain-openai-embedding-ada-2"
       ]
     },
-    "hash": "fae81a196af5fb74"
+    "hash": "bccb3c0f15bca671"
   },
   "contextprecision": {
     "id": "contextprecision",
@@ -219,7 +219,7 @@
         "azure-langchain-openai-embedding-ada-2"
       ]
     },
-    "hash": "ec7c65331d5b7e98"
+    "hash": "51b65c5d2aa1f00c"
   },
   "answerrelevance": {
     "id": "answerrelevance",
@@ -233,7 +233,7 @@
         "azure-langchain-openai-embedding-ada-2"
       ]
     },
-    "hash": "2fc5a2d0910eb791"
+    "hash": "0f875827109a2636"
   },
   "cybersecevalannotator": {
     "id": "cybersecevalannotator",
@@ -243,7 +243,7 @@
       "llm-judge-azure-gpt4-annotator"
     ],
     "configurations": {},
-    "hash": "514c2359c558ba82"
+    "hash": "1d6627f2c0e9ffc0"
   },
   "exactstrmatch-f1-squad-v2": {
     "id": "exactstrmatch-f1-squad-v2",
@@ -251,7 +251,7 @@
     "description": "ExactStrMatch will compare the output from language model with a single target or multiple expected target.",
     "endpoints": [],
     "configurations": {},
-    "hash": "7208d57b0b452d97"
+    "hash": "ddefafcefb7e4161"
   },
   "exactstrmatch-gsm8k-test": {
     "id": "exactstrmatch-gsm8k-test",
@@ -259,7 +259,7 @@
     "description": "ExactStrMatch will compare the output from language model with a single target or multiple expected target.",
     "endpoints": [],
     "configurations": {},
-    "hash": "d89c567825eb4cc4"
+    "hash": "4d450d456a5f16f8"
   },
   "mlcprv-annotator": {
     "id": "mlcprv-annotator",
@@ -269,7 +269,7 @@
       "openai-gpt4o"
     ],
     "configurations": {},
-    "hash": "cfd484b067417a5e"
+    "hash": "38949a8a3d4c3370"
   },
   "mlcipv-annotator": {
     "id": "mlcipv-annotator",
@@ -279,7 +279,7 @@
       "openai-gpt4o"
     ],
     "configurations": {},
-    "hash": "f5fefd16f7776c7f"
+    "hash": "b292c4e07bb64e45"
   },
   "mlcncr-annotator": {
     "id": "mlcncr-annotator",
@@ -289,7 +289,7 @@
       "openai-gpt4o"
     ],
     "configurations": {},
-    "hash": "7dcdd5e94cd171f9"
+    "hash": "d1a99d7f22e9a201"
   },
   "mlcvcr-annotator": {
     "id": "mlcvcr-annotator",
@@ -299,7 +299,7 @@
       "openai-gpt4o"
     ],
     "configurations": {},
-    "hash": "5382638ba5437b2a"
+    "hash": "896192cc04dc5a33"
   },
   "answercarefully-annotator": {
     "id": "answercarefully-annotator",
@@ -309,7 +309,7 @@
       "openai-gpt4o"
     ],
     "configurations": {},
-    "hash": "4d0b3cd03ff1da46"
+    "hash": "a4638195154e6b37"
   },
   "cybersecevalannotator2": {
     "id": "cybersecevalannotator2",
@@ -319,7 +319,7 @@
       "openai-gpt4o"
     ],
     "configurations": {},
-    "hash": "515d2863a9382c70"
+    "hash": "191cc536e4bb4232"
   },
   "refusal": {
     "id": "refusal",
@@ -329,7 +329,7 @@
       "refusal-evaluator"
     ],
     "configurations": {},
-    "hash": "ecf624a9a601cc19"
+    "hash": "36cbaa6c90bef673"
   },
   "entity_processor": {
     "id": "entity_processor",
@@ -337,16 +337,6 @@
     "description": "This metric is designed to process and analyse text to identify entities using the spaCy library.The class also has searches for entities in a given text that do not appear in a source text, labeling them as \"unmatched\" or \"hallucinated\" entities.",
     "endpoints": [],
     "configurations": {},
-    "hash": "30703bc5f021187e"
-  },
-  "llamaguardannotator3": {
-    "id": "llamaguardannotator3",
-    "name": "LlamaGuard Annotator",
-    "description": "Calculates the number of safe, unsafe and unknown response by using LlamaGuard.",
-    "endpoints": [
-      "together-llama-guard-8b-assistant"
-    ],
-    "configurations": {},
-    "hash": "ca29dc8558a9e9d7"
+    "hash": "c59d94b9e752215d"
   }
 }
